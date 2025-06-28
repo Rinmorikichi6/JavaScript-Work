@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My practice</title>
+  </head>
+  <body>
+    <button
+      onclick="items++;
+      document.querySelector(
+        '#Items-box'
+      ).innerText = `Items in Box is ${items}`;"
+    >
+      Add 1
+    </button>
+    <button
+      onclick="items --;
+     document.querySelector('#Items-box').innerText = `Items in Box is ${items}`
+     "
+    >
+      Sub 1
+    </button>
+    <button
+      onclick="items += 2;
+     document.querySelector('#Items-box').innerText = `Items in Box is ${items}`
+     "
+    >
+      Add 2
+    </button>
+
+    <h1 id="Items-box"></h1>
+
+    <script>
+      let items = 0;
+
+      document.querySelector(
+        "#Items-box"
+      ).innerText = `Items in Box is ${items}`;
+    </script>
+  </body>
+</html>

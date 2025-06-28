@@ -1,0 +1,22 @@
+.Add-to-bag {
+  border-radius: 30px;
+  padding: 5px 15px;
+  background-color: lightgreen;
+  color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.wishlist {
+  padding: 3px 45px;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.wishlist span {
+  color: red;
+}

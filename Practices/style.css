@@ -1,0 +1,31 @@
+#btn1 {
+  background-color: red;
+  color: white;
+  border: 4px;
+}
+
+.btn2 {
+  background-color: black;
+  color: white;
+  border: 4px;
+}
+
+.Add-to-bag {
+  border-radius: 30px;
+  padding: 5px 15px;
+  background-color: lightgreen;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+.wishlist {
+  padding: 3px 45px;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.wishlist span {
+  color: red;
+}
