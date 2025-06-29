@@ -29,3 +29,26 @@
 .wishlist span {
   color: red;
 }
+
+
+
+
+
+.calBody {
+  border: 2px solid blue;
+  width: 250px;
+
+}
+
+.calBtn {}
+
+.calBtn button {
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+.Calinput input {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+}
